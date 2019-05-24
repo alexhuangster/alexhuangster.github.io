@@ -17,3 +17,6 @@ plugins:
   - jekyll-seo-tag
 
 remote_theme: alexhuangster/minima
+
+disqus:
+  shortname: alexhuangster
