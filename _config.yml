@@ -22,3 +22,10 @@ disqus:
   shortname: alexhuangster
 
 google_analytics:  UA-140787295-1
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
