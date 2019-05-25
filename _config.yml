@@ -33,6 +33,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      author: "Alexander Huang"
 
 markdown: kramdown
 kramdown:
