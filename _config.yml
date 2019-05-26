@@ -21,7 +21,7 @@ plugins:
   - jekyll-avatar
   - jemoji
 
-remote_theme: alexhuangster/minima
+remote_theme: alexhuangster/minima@alex
 
 disqus:
   shortname: alexhuangster
