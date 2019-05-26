@@ -6,6 +6,7 @@ description: Alexander Huang's blog, mostly on programming, physics, math, and l
 show_excerpts: true
 
 minima:
+  skin: dark
   date_format: "%b %-d, %Y"
   social_links:
     github: alexhuangster
