@@ -5,6 +5,8 @@ description: Alexander Huang's blog, mostly on programming, physics, math, and l
 
 show_excerpts: true
 
+permalink: /:year/:month/:day/:title.html
+
 minima:
   skin: dark
   date_format: "%b %-d, %Y"
