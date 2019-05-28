@@ -1,6 +1,6 @@
 ---
 title: "Reading CSAPP3e"
-categories: Reading
+categories: Reading Computer
 tags: computer-systems
 ---
 
