@@ -10,10 +10,55 @@ This post contains some notes on [Randal E. Bryant](http://www.cs.cmu.edu/~bryan
 
 ## Chapter 1. A Tour of Computer Systems
 ### 1.1 Information Is Bits + Context
+
+All information in a computer is represented as a sequence of bits. The meaning of it depends on the context in which we view them.
+
 ### 1.2 Programs Are Translated by Other Programs into Different Forms
+
+Programs need to compiled by a compilation system, which has four main phases (for C):
+
+- Preprocessing phase
+- Compilation phase
+- Assembly phase
+- Linking phase
+
 ### 1.3 It Pays to Understand How Compilation Systems Work
+
+- Optimizing program performance.
+    - Is a `switch` statement always more efficient than a sequence of `if`-`else` statements?
+    - How much overhead is incurred by a function call?
+    - Is a `while` loop more efficient than a `for` loop?
+    - Are pointer references more efficient than array indexes? 
+    - Why does our loop run so much faster if we sum into a local variable instead of an argument that is passed by reference?
+    - How can a function run faster when we simply rearrange the parentheses in an arithmetic expression?
+- Understartding link-time errors.
+    - What does it mean when the linker reports that it cannot resolve a reference?
+    - What is the difference between a static variable and a global variable?
+    - What happens if you define two global variables in different C files with the same name?
+    - What is the difference between a static library and a dynamic library?
+    - Why does it matter what order we list libraries on the command line?
+    - Why do some linker-related errors not appear until run time?
+- Avoiding security holes.
+
 ### 1.4 Processors Read and Interpret Instructions Stored in Memory
 #### 1.4.1 Hardware Organization of a System
+
+- Buses
+  
+    Buses are typically designed to transfer fixed-size chunks of bytes known as *word*. The number of bytes in a word (the word size) is a fundamental system parameter that varies across systems.
+
+- I/O Devices 
+
+    Each I/O device is connected to the I/O bus by either a *controller* or an *adapter*. Controllers are chip sets in the device itself or on the system's main printed circuit board (often called the *motherboard*). An adapter is a card that plugs into a slot on the motherboard.
+
+- Main Memory 
+  
+    Physically, main memory consists of a collection of *dynamic random accesss memory* (DRAM) chips. Logically, memory is organized as a linear array of bytes, each with its own unique address starting at zero.
+
+- Processor
+
+    The core of a processor is a word-size storage device called the *program counter* (PC). At any point in time, the PC points at some machine-language instruction in main memory. From the time that power is applied to the system until the time that the power is shut off, a processor repeatedly executes the instruction pointed at by the PC and updates the PC to point to the next instruction.
+
 #### 1.4.2 Running the hello Program
 ### 1.5 Caches Matter
 ### 1.6 Storage Devices Form a Hierarchy
