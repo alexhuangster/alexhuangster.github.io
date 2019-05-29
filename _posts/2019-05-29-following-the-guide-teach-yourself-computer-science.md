@@ -1,7 +1,7 @@
 ---
 title: "Following the Guide \"Teach Yourself Computer Science\""
 date: 2019-05-29 16:50:18 +0800
-categories: Notes
+categories: Notes Computer
 tags: computer-science
 ---
 

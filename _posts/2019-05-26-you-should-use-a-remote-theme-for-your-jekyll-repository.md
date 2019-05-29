@@ -1,7 +1,7 @@
 ---
 title: "You Should Use a Remote Theme for Your Jekyll Repository"
 date: 2019-05-26 21:47:47 +0800
-categories: Views
+categories: Views Computer
 tags: jekyll
 ---
 
