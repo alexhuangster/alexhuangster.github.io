@@ -9,7 +9,21 @@ This post contains some notes on [Gayle Laakmann McDowell](http://www.gayle.com/
 {% include toc.html %}
 
 ## I. The Interview Process
+
+Checkpoints:
+
+- Analytical skills
+- Coding skills
+- Technical knowledge / Computer Science fundamentals
+- Experience
+- Culture fit / Communication skills
+
 ### Why?
+
+> I'll leave you with this: it is what it is, so let's do the best we can with it. 
+
+NO WHY!
+
 ### How Questions are Selected
 ### It's All Relative
 ### Frequently Asked Questions
