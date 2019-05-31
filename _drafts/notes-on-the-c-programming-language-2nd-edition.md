@@ -16,3 +16,5 @@ Some points to show the "low-level" aspects of C:
 - No operations that manipulate an entire array or string, although structures may be copied as a unit.
 - No any storage allocation facility other than static definition and the stack discipline provided by the local variables of functions; there is no heap or garbage collection.
 - No input/output facilities; there are no READ or WRITE statements, and no built-in file access methods.
+
+The basic philosophy of C is that **programmers know what they are doing**. Based on this, C has no strong type-checking.
