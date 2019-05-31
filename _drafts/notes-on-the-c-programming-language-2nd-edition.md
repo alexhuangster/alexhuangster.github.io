@@ -18,3 +18,13 @@ Some points to show the "low-level" aspects of C:
 - No input/output facilities; there are no READ or WRITE statements, and no built-in file access methods.
 
 The basic philosophy of C is that **programmers know what they are doing**. Based on this, C has no strong type-checking.
+
+## Types, Operators, and Expressions
+
+### Variable Names
+
+> At least the first 31 characters of an internal name are significant. For function names and external variables, the number may be less than 31, because external names may be used by assemblers and loaders over which the language has no control. For external names, the standard guarantees uniqueness only for 6 characters and a single case.
+
+An [easy-to-misunderstand paragraph. There is some [discussion on Stack Overflow](paragraph) about this paragraph. According to an [answer](https://stackoverflow.com/a/12979078/11397411) by [O. Jones](https://stackoverflow.com/users/205608/o-jones), modern compilers and toolchains no longer have different name-length limitations. 
+
+So I know why all names of functions in C standard library are so short.
